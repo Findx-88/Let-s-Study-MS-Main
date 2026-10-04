@@ -576,6 +576,88 @@ const Home = () => {
         </div>
       </section>
 
+      {/* School Division Spotlight Section */}
+      <section className="py-20 bg-gradient-to-b from-secondary/40 via-card to-background relative overflow-hidden border-y border-border/60">
+        <div className="absolute top-0 right-1/4 w-96 h-96 bg-primary/10 rounded-full blur-[120px] pointer-events-none" />
+        <div className="absolute bottom-0 left-1/4 w-80 h-80 bg-teal-500/10 rounded-full blur-[100px] pointer-events-none" />
+        
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="max-w-5xl mx-auto bg-card/80 backdrop-blur-xl border border-primary/20 rounded-[2.5rem] p-8 md:p-12 shadow-2xl relative overflow-hidden">
+            <div className="absolute -top-24 -right-24 w-60 h-60 bg-primary/15 rounded-full blur-3xl pointer-events-none" />
+            
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div className="lg:col-span-8 space-y-5">
+                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-wider">
+                  <GraduationCap size={16} />
+                  <span>Academic School Division • Class 5 to 12</span>
+                </div>
+
+                <h2 className="text-3xl md:text-5xl font-black text-foreground tracking-tight leading-tight">
+                  Nurturing Curious Minds from <span className="shimmer-text">Class 5 to 12</span>
+                </h2>
+
+                <p className="text-muted-foreground text-base md:text-lg leading-relaxed">
+                  Before stepping into university-level mathematics, build unshakeable conceptual foundations with 
+                  <strong className="text-foreground font-semibold"> Let's Study School</strong>. West Bengal's premier academic coaching for CBSE, ICSE, and WB Board students.
+                </p>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+                  {[
+                    'Strict micro-batches (3–5 students only)',
+                    'Physics, Chemistry, Biology, Math & English',
+                    'CBSE, ICSE / ISC & WB Board syllabi',
+                    'Direct continuity to IIT JAM & ISI prep'
+                  ].map((feature, idx) => (
+                    <div key={idx} className="flex items-center space-x-2 text-sm text-foreground/90 font-medium">
+                      <div className="w-5 h-5 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
+                        ✓
+                      </div>
+                      <span>{feature}</span>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="flex flex-wrap items-center gap-4 pt-4">
+                  <a
+                    href="https://ls2mschool.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-primary-foreground font-bold text-sm tracking-wide hover:bg-primary/90 transition-all shadow-xl hover:shadow-primary/25 hover:scale-105 group"
+                  >
+                    <span>EXPLORE SCHOOL WING (LS2MSCHOOL.COM)</span>
+                    <ExternalLink size={16} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+                  </a>
+                  <a
+                    href="tel:+918481819726"
+                    className="inline-flex items-center gap-2 px-6 py-4 rounded-full bg-secondary/80 hover:bg-secondary text-foreground font-semibold text-sm border border-border transition-all hover:scale-105"
+                  >
+                    <span>Call School Desk: +91 8481819726</span>
+                  </a>
+                </div>
+              </div>
+
+              <div className="lg:col-span-4 flex flex-col justify-center items-center text-center p-6 bg-secondary/40 rounded-3xl border border-border">
+                <div className="w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mb-4 ring-1 ring-primary/30">
+                  <BookOpen size={32} />
+                </div>
+                <span className="text-xs font-bold text-primary uppercase tracking-widest">New Session 2026–27</span>
+                <h3 className="text-xl font-black text-foreground mt-1">Micro-Batch Admissions Open</h3>
+                <p className="text-xs text-muted-foreground mt-2 leading-relaxed">
+                  Interactive live classes on Google Meet with senior educators from IISER, IITs, and prestigious colleges.
+                </p>
+                <div className="mt-5 w-full pt-4 border-t border-border flex items-center justify-between text-xs text-muted-foreground font-medium">
+                  <span>Batch Capacity:</span>
+                  <span className="font-bold text-primary">Max 5 Students</span>
+                </div>
+                <div className="mt-2 w-full flex items-center justify-between text-xs text-muted-foreground font-medium">
+                  <span>Starting From:</span>
+                  <span className="font-bold text-foreground">₹1,500 / month</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Success Stories Section */}
       <section id="success-stories" className="py-20 bg-background scroll-mt-20">

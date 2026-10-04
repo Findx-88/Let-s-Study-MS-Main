@@ -102,6 +102,25 @@ For EVERY page (Home, Testimonials, Contact, all 7 course pages):
 
 ---
 
+## Last Audit: 2026-10-04 (October 2026)
+
+### Changes Made:
+- **Sitemap (`public/sitemap.xml`)**:
+  - Refreshed all 10 route `<lastmod>` timestamps from `2026-09-22` to `2026-10-04`.
+- **AI Search / GEO (`public/llms.txt`)**:
+  - Enriched with faculty credential details (AIR ranks, institutions).
+  - Added specific named alumni outcomes with exam years for AI citation accuracy.
+  - Added founding year, full address, and `Last updated` date field.
+  - Added expanded course descriptions referencing specific exam names (CSIR NET, GATE DA, etc.).
+- **Verification**:
+  - All pages confirmed to have: unique `<title>` (50-60 chars), unique `<meta description>` (150-160 chars), canonical URLs, OG tags, Twitter Card tags, and BreadcrumbList schema.
+  - `robots.txt` AI crawler allowances verified (GPTBot, ChatGPT-User, ClaudeBot, PerplexityBot).
+  - `.htaccess` SPA routing rules verified.
+  - `NotFound.jsx` confirmed `noindex, nofollow` directive.
+  - No deprecated schema types (FAQPage, HowTo) detected.
+
+---
+
 ## Last Audit: 2026-09-22 (September 2026)
 
 ### Changes Made:

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, ExternalLink, GraduationCap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/components/ui/use-toast';
 import Header from '@/components/Header';
@@ -174,6 +174,49 @@ const ContactUs = () => {
                   </motion.div>
                 ))}
               </div>
+
+              {/* School Division Contact Card */}
+              <motion.div
+                whileHover={{ scale: 1.01 }}
+                className="p-7 bg-gradient-to-br from-primary/10 via-card to-secondary/60 rounded-3xl border border-primary/30 shadow-lg relative overflow-hidden"
+              >
+                <div className="flex items-start gap-4">
+                  <div className="p-3.5 bg-primary text-primary-foreground rounded-2xl shrink-0 shadow-md">
+                    <GraduationCap size={26} />
+                  </div>
+                  <div className="flex-1">
+                    <span className="text-[10px] font-bold text-primary uppercase tracking-widest bg-primary/15 px-2.5 py-0.5 rounded-full border border-primary/20">
+                      School Division Admissions (Std 5–12)
+                    </span>
+                    <h3 className="text-xl font-black text-foreground mt-2">
+                      Inquiring for School Coaching?
+                    </h3>
+                    <p className="text-muted-foreground text-sm mt-1.5 leading-relaxed">
+                      For CBSE, ICSE / ISC, and WB Board micro-batch tuitions (Classes 5 to 12 across Physics, Chemistry, Biology, Mathematics &amp; English), visit our dedicated school division at <strong className="text-foreground">ls2mschool.com</strong>.
+                    </p>
+                    <div className="mt-5 flex flex-wrap items-center gap-3">
+                      <a
+                        href="https://ls2mschool.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-primary text-primary-foreground text-xs font-bold uppercase tracking-wider hover:bg-primary/90 transition-all shadow-md hover:scale-105"
+                      >
+                        <span>Visit ls2mschool.com</span>
+                        <ExternalLink size={14} />
+                      </a>
+                      <a
+                        href="https://ls2mschool.com/contact"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 text-xs font-bold text-primary hover:underline px-3 py-2"
+                      >
+                        <span>School Contact Desk</span>
+                        <ExternalLink size={12} />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
             </motion.div>
 
             {/* Form */}
@@ -196,7 +239,23 @@ const ContactUs = () => {
                     <option value="M.Sc Mathematics Entrances">M.Sc Mathematics Entrances</option>
                     <option value="M.Tech/ Data Science/ M.Sc Economics">M.Tech/ Data Science/ M.Sc Economics</option>
                     <option value="Engineering Mathematics">Engineering Mathematics</option>
+                    <option value="PhD Entrances">PhD Entrances</option>
+                    <option value="School Program (Std 5–12) - ls2mschool.com">School Coaching (Std 5–12) — ls2mschool.com</option>
                   </select>
+
+                  {formData.course.includes('School') && (
+                    <div className="p-4 rounded-2xl bg-primary/10 border border-primary/20 text-xs text-foreground flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                      <span>Looking for Class 5–12 school coaching? You can also explore batch timings and admissions directly on our school website.</span>
+                      <a
+                        href="https://ls2mschool.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-bold text-primary hover:underline shrink-0 inline-flex items-center gap-1"
+                      >
+                        ls2mschool.com <ExternalLink size={12} />
+                      </a>
+                    </div>
+                  )}
 
                   <select name="university" value={formData.university} onChange={handleChange} className="w-full px-5 py-4 bg-secondary/30 border border-border rounded-2xl focus:ring-2 focus:ring-primary outline-none transition-all appearance-none cursor-pointer">
                     <option value="">Current University</option>

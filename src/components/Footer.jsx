@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { Facebook, Instagram, Linkedin, Youtube, Send, Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, Youtube, Send, Mail, Phone, MapPin, ExternalLink, GraduationCap } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Footer = () => {
@@ -53,6 +53,49 @@ const Footer = () => {
       <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-[100px] pointer-events-none" />
       
       <div className="container mx-auto px-4 relative z-10">
+        {/* Sister Institute / School Division Banner */}
+        <motion.div
+          variants={fadeInUp}
+          initial="initial"
+          whileInView="whileInView"
+          viewport={{ once: true }}
+          className="mb-14 p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-primary/10 via-primary/5 to-secondary/60 border border-primary/25 shadow-lg relative overflow-hidden group"
+        >
+          <div className="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 bg-primary/10 rounded-full blur-3xl pointer-events-none group-hover:bg-primary/20 transition-all duration-700" />
+          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 relative z-10">
+            <div className="flex items-start sm:items-center gap-4">
+              <div className="w-12 h-12 rounded-2xl bg-primary text-primary-foreground flex items-center justify-center shrink-0 shadow-md group-hover:scale-105 transition-transform">
+                <GraduationCap size={24} />
+              </div>
+              <div>
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="text-[11px] font-bold text-primary uppercase tracking-widest bg-primary/15 px-2.5 py-0.5 rounded-full border border-primary/20">
+                    School Academic Division • Std 5–12
+                  </span>
+                  <span className="text-[11px] font-semibold text-muted-foreground hidden sm:inline">
+                    CBSE • ICSE • WB Board
+                  </span>
+                </div>
+                <h3 className="text-lg sm:text-xl font-black text-foreground mt-1 tracking-tight">
+                  Looking for School Coaching? Explore Let's Study School
+                </h3>
+                <p className="text-xs sm:text-sm text-muted-foreground mt-1 max-w-2xl leading-relaxed">
+                  Dedicated micro-batches (3–5 students) across Physics, Chemistry, Biology, Mathematics &amp; English with direct continuity to IIT JAM / ISI higher academic prep.
+                </p>
+              </div>
+            </div>
+            <a
+              href="https://ls2mschool.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="shrink-0 inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary text-primary-foreground font-bold text-xs uppercase tracking-wider hover:bg-primary/90 transition-all shadow-md hover:shadow-xl hover:scale-105"
+            >
+              <span>Visit ls2mschool.com</span>
+              <ExternalLink size={14} />
+            </a>
+          </div>
+        </motion.div>
+
         <motion.div 
           variants={staggerContainer}
           initial="initial"
@@ -103,6 +146,17 @@ const Footer = () => {
               <li><Link to="/testimonials" onClick={() => window.scrollTo(0,0)} className="text-muted-foreground hover:text-primary transition-all text-sm font-medium">Success Stories</Link></li>
               <li><button onClick={() => handleScrollToSection('team')} className="text-muted-foreground hover:text-primary transition-all text-sm font-medium">Mentors</button></li>
               <li><Link to="/contact" onClick={() => window.scrollTo(0,0)} className="text-muted-foreground hover:text-primary transition-all text-sm font-medium">Admissions</Link></li>
+              <li>
+                <a 
+                  href="https://ls2mschool.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-primary hover:text-primary/80 transition-all text-sm font-semibold flex items-center gap-1 group"
+                >
+                  <span>School Wing (Std 5–12)</span>
+                  <ExternalLink size={12} className="opacity-70 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all" />
+                </a>
+              </li>
             </ul>
           </motion.div>
 
@@ -175,8 +229,8 @@ const Footer = () => {
           transition={{ delay: 0.5 }}
           className="mt-20 pt-10 border-t border-border flex flex-col md:flex-row justify-between items-center gap-6"
         >
-          <p className="text-muted-foreground text-xs font-medium italic">
-            © {new Date().getFullYear()} Let's Study MS - School of Mathematics. Dedicated to Analytical Brilliance.
+          <p className="text-muted-foreground text-xs font-medium">
+            © {new Date().getFullYear()} Let's Study MS — School of Mathematics. School Division: <a href="https://ls2mschool.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold inline-flex items-center gap-1">Let's Study School (ls2mschool.com)<ExternalLink size={11} /></a>
           </p>
           <div className="flex items-center space-x-6">
             <Link to="/privacy" className="text-xs text-muted-foreground hover:text-primary transition-colors">Privacy Policy</Link>

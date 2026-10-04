@@ -1,25 +1,32 @@
 # Let's Study MS — School of Mathematics
-> One of West Bengal's top mathematical institutes for higher education. Expert preparation for BSc Honours, MSc Entrances, IIT JAM, TIFR, NBHM, ISI and PhD entrances.
+> One of West Bengal's top mathematical institutes for higher education. Expert preparation for BSc Honours, MSc Entrances, IIT JAM, TIFR, NBHM, ISI and PhD entrances. Founded in 2022, affiliated with Ramanujan School of Mathematics (RSM).
 
 ## About
 - [Home](https://letsstudyms.com/): Overview of the institute, courses, mentors, and success stories
 - [Contact](https://letsstudyms.com/contact): Enquiry form, phone numbers, email, and physical address
 
 ## Courses
-- [Foundation Batch](https://letsstudyms.com/courses/foundation-batch): Build strong mathematical fundamentals for undergraduate students
-- [Semester Batch](https://letsstudyms.com/courses/semester-batch): Targeted preparation for semester exams
-- [MSc Mathematics Entrances](https://letsstudyms.com/courses/msc-mathematics): IIT JAM, TIFR, ISI, NBHM, CMI entrance coaching
-- [MTech / Data Science / MSc Economics](https://letsstudyms.com/courses/mtech-datascience): Specialized preparation for interdisciplinary programs
-- [Engineering Mathematics](https://letsstudyms.com/courses/engineering-mathematics): Comprehensive engineering mathematics for all branches
-- [PhD Entrances](https://letsstudyms.com/courses/phd-entrances): Advanced preparation for doctoral program admissions
-- [Advanced Courses](https://letsstudyms.com/courses/advanced-courses): Specialized topics for research and competitive excellence
+- [Foundation Batch](https://letsstudyms.com/courses/foundation-batch): Build strong mathematical fundamentals for undergraduate students — aligned to BSc Honours syllabuses of Jadavpur, Calcutta, St. Xavier's, and Presidency University
+- [Semester Batch](https://letsstudyms.com/courses/semester-batch): Targeted preparation for semester exams at major West Bengal universities
+- [MSc Mathematics Entrances](https://letsstudyms.com/courses/msc-mathematics): IIT JAM, TIFR, ISI M.Math, NBHM, CMI entrance coaching by IIT and ISI alumni
+- [MTech / Data Science / MSc Economics](https://letsstudyms.com/courses/mtech-datascience): Specialized preparation for ISI MSQE, GATE DA, and interdisciplinary programs
+- [Engineering Mathematics](https://letsstudyms.com/courses/engineering-mathematics): Comprehensive engineering mathematics for GATE and university exams across all branches
+- [PhD Entrances](https://letsstudyms.com/courses/phd-entrances): Advanced preparation for CSIR NET, NBHM PhD Fellowship, TIFR, HRI, and IIT PhD admissions
+- [Advanced Courses](https://letsstudyms.com/courses/advanced-courses): Specialized topics for research and competitive excellence (Measure Theory, Functional Analysis, etc.)
 
 ## Success Stories
-- [Hall of Fame](https://letsstudyms.com/testimonials): Alumni success stories — IIT JAM AIR 37, CSIR NET AIR 6, GATE AIR 25, placements at ISI Kolkata, IISc Bangalore, TIFR, HRI, IIT Bombay, University of Connecticut (PhD)
+- [Hall of Fame](https://letsstudyms.com/testimonials): Alumni success stories — IIT JAM AIR 37 (Divesh Bhalotia, ISI M.Math 2025), CSIR NET AIR 6 (Urmi Daniella, IISc 2022), GATE AIR 25 (Abir Rangan, ISI Kolkata 2024), IIT JAM ST AIR 16 (Sirsha Das, IIT Bombay). Placements at ISI Kolkata, IISc Bangalore, TIFR Mumbai, HRI, IIT Bombay, IIT Delhi, IISER Bhopal/Kolkata, and University of Connecticut (PhD).
+
+## Faculty Credentials
+- Debabrata Krishna: IIT Kanpur (Post Grad), IIT JAM AIR 104 (2021), CSIR-NET AIR 35 (2024)
+- Sourish: ISI Kolkata M.Math, CSIR-NET AIR 33 (June 2024), PhD offers from TIFR Mumbai, HRI, IIT Madras, University of Tokyo
+- Urmi Daniella: IISc Bangalore (Grad + Post Grad), CSIR-NET AIR 6 (2022)
 
 ## Key Facts
-- Located in Khardaha, Kolkata, West Bengal, India
+- Founded: 2022
+- Location: 118/105, Rabindrapally, Khardaha, Kolkata, West Bengal - 700117, India
 - Faculty from IIT Kanpur, ISI Kolkata, IISc Bangalore
 - Students placed at IITs, ISI, IISc, TIFR, HRI, IISER, and international universities
 - Phone: +91 8481819726, +91 8777484102
 - Email: letsstudy2022bu@gmail.com
+- Last updated: 2026-10-04
